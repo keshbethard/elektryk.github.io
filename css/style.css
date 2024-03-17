@@ -1,0 +1,447 @@
+html, body {
+    background-color: #d9e1e9;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #111;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a.button {
+    text-transform: uppercase;
+    background-color: #f08920;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 700;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 3px 0 #cd7112;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #cd7112;
+    cursor: pointer;
+
+}
+
+/* LAYOUT */
+.layout {
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    background-color: #0077b6;
+}
+
+header .getintouch {
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0077b6;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header .getintouch a {
+    color: #0077b6;
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 14px;
+    text-decoration-color: #f08920;
+}
+
+header .logo-navigation {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+}
+
+header .logo-navigation .navigation ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header .logo-navigation .navigation ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header .logo-navigation .navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logo-navigation .navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+header .logo {
+    width: 35%;
+}
+
+header .logo img {
+    max-width: 300px;
+    display: block;
+}
+
+header .navigation {
+    margin-left: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    margin-bottom: 10px;
+}
+
+figcaption {
+    margin: 10px 10px 50px 10px;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* BODY */
+.hero {
+    background-image: url("../images/bg.jpg");
+    min-height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero.two {
+    background-image: url("../images/services.jpg");
+    min-height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.hero p {
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.body .ben {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.body .ben ul { 
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.body .ben ul li { 
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.body .ben ul li span { 
+    display: block;
+    margin-bottom: 10px;
+    color: #449342;
+    font-size: 48px;
+}
+
+.body .services {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.body .services .content {
+    width: calc(33.33% - 40px);
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px 0 rgba(32,76,136,.15);
+}
+
+.body .services .content img {
+    display: block;
+    max-width: 100%;
+}
+
+.body .services h2 {
+    font-size: 48px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.body .services h3 {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.body .services h3 a,
+.body .services h3 a:visited,
+.body .services h3 a:hover {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.body .main-content {
+    max-width: 980px;
+    margin: 50px auto 50px auto;
+    justify-content: center;
+    min-height: 75vh;
+    padding: 0 20px;
+}
+
+.body .main-content h1 {
+    text-align: center;
+}
+
+.body .main-content .description {
+    text-align: center;
+    font-size: 24px;
+}
+
+.body .main-content .section {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 2px 6px 0 rgba(32,76,136,.15);;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 10px solid #0077b6;
+}
+
+.body .main-content .section img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;;
+}
+
+.body .main-content .section-contact {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 2px 6px 0 rgba(32,76,136,.15);;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 20px solid #f08920;
+    margin-top: 20px;
+}
+
+.body .main-content .section-contact img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;;
+}
+
+.body .main-content .section-contact  .material-symbols-outlined { 
+    font-size: 48px;
+    color: #0077b6;
+    margin-right: 10px;
+}
+
+.body .main-content .section-contact p.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.body .main-content .section-contact p.icon-text span.text {
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.body .main-content .section-contact p.icon-text a {
+    color: #0077b6;
+}
+
+.body .main-content .section .service-photo {
+    display: block;
+    width: 25%;
+    border-radius: 50%;
+    margin: 50px auto 0 auto;
+    box-shadow: 0 2px 6px 0 rgba(32,76,136,.5);
+}
+
+.body .main-content h2 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+footer img {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (max-width: 998px) {
+    html, body {
+        font-size: 16px;
+    }
+
+    .body .main-content {
+        padding: 10px;
+    }
+
+    .hero .content {
+        padding: 0 20px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .body .ben ul li {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    h2,
+    .body .main-content h2 {
+        font-size: 18px;
+    }
+
+    header .logo {
+        width: 100%;
+    }
+
+    header .logo img {
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    header .navigation {
+        margin: 0;
+        width: 100%;
+        background-color: #01537f;
+    }
+
+    header .navigation ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    header .logo-navigation .navigation ul li {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        width: calc(50% - 20px);
+        background-color: #f08920;
+        border: solid 1px #fff;
+        margin: 0;
+    }
+
+    header .logo-navigation {
+        height: auto;
+    }
+
+    a.button {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .body .services .content {
+        width: calc(50% - 40px);
+        margin: 5px;
+    }
+
+    .body .services h3 a, 
+    .body .services h3 a:visited, 
+    .body .services h3 a:hover {
+        font-size: 14px;
+    }
+
+    header .getintouch {
+        font-size: 14px
+    }
+
+    header .getintouch  span {
+        display: block;
+    }
+
+    header .getintouch a {
+        margin-left: 0;
+    }
+
+    .body .main-content .section,
+    .body .main-content .section-contact {
+        padding: 25px;
+    }
+
+    .body .main-content .section .service-photo {
+        width: 75%;
+    }
+}
